@@ -1,0 +1,80 @@
+@use 'variaveis';
+
+.details {
+    padding: 2vw 5.6vw;
+
+    &__tab {
+        flex: 0 0 auto;
+        span {
+            font-size: 20px;
+            font-weight: 600;
+            border-radius: 0;
+            line-height: 1.4;
+            padding: 0 0 15px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            pointer-events: none;
+            color: variaveis.$corTextoPrincipal;
+            border: none;
+        }
+    }
+
+    hr {
+        display: block;
+        margin-block-start: 0.5em;
+        margin-block-end: 0.5em;
+        margin-inline-start: auto;
+        margin-inline-end: auto;
+        unicode-bidi: isolate;
+        overflow: hidden;
+        border-style: inset;
+        border-width: 1px;
+    }
+
+    h2 {
+        margin: 14px 0 0;
+        line-height: 1.2;
+        font-weight: 700;
+        letter-spacing: 0;
+        white-space: pre-wrap;
+    }
+
+    &__descriptions {
+        flex: 1;
+        gap: 12px;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+
+        @media (max-width:768px){
+            display: block;
+        }
+
+        &__description {
+            margin: 18px 0;
+            padding-right: 12px;
+            width: 50%;
+            max-width: 767px;
+        }
+
+        &__infos {
+            padding-left: 12px;
+            width: 50%;
+            gap: 15px;
+            display: flex;
+            align-self: end;
+            padding-bottom: 16px;
+
+            &__info {
+                li{
+                    list-style: none;
+                    .informacoes {
+                        color: variaveis.$corTextoPrincipal;;
+                        display: block;
+                        margin-top: 8px;
+                    }
+                }
+            }
+        }
+    }
+}

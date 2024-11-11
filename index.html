@@ -7,25 +7,168 @@
     <link rel="stylesheet" href="dist/css/main.css">
 </head>
 <body>
+    <header class="header">
+        <div class="header__container">
+            <h1>
+                <img class="header__logo" src="./dist/images/disneyplus.svg" alt="Disney+">
+            </h1>
+            <ul class="header__links">
+                <li class="header__links__item">
+                    <a href="#" class="button button--secondary">Assine agora</a>
+                </li>
+                <li class="header__links__item">
+                    <a href="#" class="button button--dark">Entrar</a>
+                </li>
+            </ul>
+        </div>
+    </header>
     <section class="hero">
         <div class="hero__content">
-            <h1 class="hero__content__branding">
+            <div class="hero__content__branding">
                 <img src="./dist/images/os_simp.webp" alt="Os Simpsons">
-            </h1>
+            </div>
             <picture>
-                <img src="./dist/images/logos/cc.webp" width="27" height="auto" alt="">
+                <img src="./dist/images/logos/cc.webp" width="27" alt="">
             </picture>
             <span class="text">1989 - 2023 • 35 temporadas</span>
             <br>
             <span class="text">Comédia, Animação</span>
-            <div class="hero__content__botao">
-            <button>ASSINAR O DISNEY+</button>
+            <div class="hero__content__button">
+                <a href="#" class="button">ASSINAR O DISNEY+</a>
             </div>
             <div class="hero__content__sinopse">
                 <p class="text--big">A família mais famosa de Springfield e do mundo. A comédia de animação que continua fazendo sucesso. Homer trabalha na usina nuclear e não é um típico homem de família. Embora tenha as melhores intenções, nem sempre são suficientes. Marge é a carinhosa mãe de cabelos azuis; Bart, o filho problemático; Lisa, a filha talentosa, e Maggie, a bebê que nunca fala. Resumindo: Os Simpsons!</p>
             </div>
         </div>
-
     </section>
+    <section class="details">
+        <div class="details__tab">
+            <span>DETALHES</span>
+        </div>
+        <hr>
+        <h2 class="title--big">Os Simpsons</h2>
+        <div class="details__descriptions">
+            <div class="details__descriptions__description">
+                <p class="text--big">Vencedor do Prêmio Emmy® de 2019 como Melhor Programa de Animação, "Os Simpsons", continua a impressionar os espectadores por zombar de absolutamente tudo, sempre de forma irreverente. Com seu humor subversivo e enorme sagacidade, a série marcou a cultura pop americana. Cada personagem - Homer (Dan Castellaneta), Marge (Julie Kavner), Bart (Nancy Cartwright), Lisa (Yeardley Smith) e Maggie - são ícones da televisão. Hoje, "Os Simpsons" já se tornou a série roteirizada de maior duração da história da televisão, a comédia de animação ganhadora dos prêmios Emmy®, Annie e Peabody, e ultrapassou o recorde de "Gunsmoke" com maior número de episódios de uma série de televisão roteirizada no horário nobre. "Os Simpsons" é uma produção da Gracie Filmes em associação com a 20th Century Fox Television. A série foi criada por Matt Groening e desenvolvida por James L. Brooks, Matt Groening e Sam Simon. James L. Brooks e Matt Groening são produtores executivos. Al Jean e Matt Selman também atuam como produtores executivos e showrunners da série.</p>
+            </div>
+            <div class="details__descriptions__infos">
+                <ul class="details__descriptions__infos__info">
+                    <li>
+                        <span class="informacoes">Duração:</span>
+                        <span class="text">24min</span>
+                    </li>
+                    <li>
+                        <span class="informacoes">Data de lançamento:</span>
+                        <span class="text">1989 - 2023</span>
+                    </li>
+                    <li>
+                        <span class="informacoes">Gênero:</span>
+                        <span class="text">Comédia, Animação</span>
+                    </li>
+                    <li>
+                        <span class="informacoes">Classificação da temporada 1:</span>
+                        <picture>
+                            <img src="dist/images/logos/livre.webp" width="20" alt="">
+                        </picture>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="shows">
+        <div class="shows__header">
+            <h2 class="title">Você também pode gostar de</h2>
+        </div>
+        <div class="shows__content">
+            <ul class="shows__list">
+                <li class="shows__item">
+                    <a href="#" class="shows__link">
+                        <img src="./dist/images/filmes/futurama.webp" alt="Futurama">
+                    </a>
+                </li>
+                <li class="shows__item">
+                    <a href="#" class="shows__link">
+                        <img src="./dist/images/filmes/bobs_burger.webp" alt="Bobs Burger">
+                    </a>
+                </li>
+                <li class="shows__item">
+                    <a href="#" class="shows__link">
+                        <img src="./dist/images/filmes/bobs_filme.webp" alt="Bobs o Filme">
+                    </a>
+                </li>
+                <li class="shows__item">
+                    <a href="#" class="shows__link">
+                        <img src="./dist/images/filmes/koalaman.webp" alt="Koalaman">
+                    </a>
+                </li>
+                <li class="shows__item">
+                    <a href="#" class="shows__link">
+                        <img src="./dist/images/filmes/simp_bemvclube.webp" alt="Simpsons bem vindo ao clube">
+                    </a>
+                </li>
+                <li class="shows__item">
+                    <a href="#" class="shows__link">
+                        <img src="./dist/images/filmes/simp_feliznavidad.webp" alt="Simpsons feliz navidad">
+                    </a>
+                </li>
+                <li class="shows__item">
+                    <a href="#" class="shows__link">
+                        <img src="./dist/images/filmes/simp_filme.webp" alt="Simpsons o filme">
+                    </a>
+                </li>
+                <li class="shows__item">
+                    <a href="#" class="shows__link">
+                        <img src="./dist/images/filmes/simp_forcamaterna.webp" alt="Simpson força materna">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer__container">
+            <img class="footer__logo" src="./dist/images/disneyplus.svg" alt="Disney+">
+            <ul class="footer__links">
+                <li class="footer__links__item">
+                    <div class="language-selector">
+                        <img src="./dist/images/icones/globe.svg" alt="Globo do Mundo">
+                    <select>
+                        <option>English</option>
+                        <option selected>Português</option>
+                    </select>
+                    </div>
+                </li>
+                <li class="footer__links__item">
+                    <a class="text--small" href="#">Termos e Condiçôes de Uso</a>
+                </li>
+                <li class="footer__links__item">
+                    <a class="text--small" href="#">Política de privacidade</a>
+                </li>
+                <li class="footer__links__item">
+                    <a class="text--small" href="#">Proteção de Dados no Brasil</a>
+                </li>
+                <li class="footer__links__item">
+                    <a class="text--small" href="#">Anúncios personalizados</a>
+                </li>
+                <li class="footer__links__item">
+                    <a class="text--small" href="#">Dispositivos compatíveis</a>
+                </li>
+                <li class="footer__links__item">
+                    <a class="text--small" href="#">Ajuda</a>
+                </li>
+                <li class="footer__links__item">
+                    <a class="text--small" href="#">Sobre o Disney+</a>
+                </li>
+            </ul>
+            <p class="text--small">
+                © 2024 Disney e suas empresas afiliadas. Todos os direitos reservados.
+            </p>
+            <p class="text--small">
+                A programação do conteúdo esportivo varia de acordo com o plano. Para usar o Disney+, é necessário ser assinante e ter mais de 18 anos de idade. Conteúdo sujeito a disponibilidade.
+                O serviço Disney+ é comercializado por The Walt Disney Company (Brasil) Ltda., World Trade Center, Av. Das Nações Unidas, 12.551, 12.555, 12.559, Piso 10, São Paulo/SP – CEP 04578-903, Brasil e CNPJ/M 73.042.962/0004-20
+            </p>
+        </div>
+    </footer>
+
+    <script src="src/main.js"></script>
 </body>
 </html>

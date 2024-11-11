@@ -1,0 +1,25 @@
+.shows {
+    padding: 2vw 5.6vw; 
+
+    &__content {
+        overflow-x: auto; 
+        white-space: nowrap; 
+    }
+
+    &__list {
+        list-style-type: none; 
+        padding: 0; 
+        margin: 0; 
+        display: inline-flex; 
+    }
+
+    &__item {
+        display: inline-block; 
+        margin: 10px; 
+
+        img {
+            height: 216px;
+            width: 380px;
+        }
+    }
+}
