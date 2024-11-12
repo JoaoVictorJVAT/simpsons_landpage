@@ -31,7 +31,7 @@
                 display: block;
                 min-height: 170px;
                 padding: 56px 0 12px;
-                width: 100%;  /* A imagem deve ser responsiva */
+                width: 100%;
     }
 
 }
@@ -46,9 +46,9 @@
                 max-width: 100%;
     
                 img {
-                    width: 35vw; /* Ajusta a largura para a imagem ser responsiva */
-                    max-width: 340px;  /* Limite máximo da largura da imagem */
-                    min-width: 100px;  /* Limite mínimo da largura */
+                    width: 35vw;
+                    max-width: 340px;
+                    min-width: 100px;
                 }
             }
         }
