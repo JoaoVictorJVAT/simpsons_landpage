@@ -48,6 +48,7 @@
 
         @media (max-width:768px){
             display: block;
+            width: 100%;
         }
 
         &__description {
@@ -55,6 +56,10 @@
             padding-right: 12px;
             width: 50%;
             max-width: 767px;
+
+            @media (max-width: 768px) {
+                width: 100%;  // No celular, ocupa 100% da largura
+            }
         }
 
         &__infos {
